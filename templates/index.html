@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DosaHub</title>
+    <style>
+    table, th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <table style="margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;">
+            <tr>
+                <div class="container">
+                <td>
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </td>
+            <tr>
+                <td>
+                    <label for="pswd"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </td>
+                </div>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
